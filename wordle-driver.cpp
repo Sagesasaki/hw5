@@ -13,11 +13,11 @@ using namespace std;
 int main(int argc, char* argv[])
 {
     if(argc < 2){
-        cout << "Please provide an initial string (e.g. \"s---ng\")"
+        cout << "Please provide an initial string (e.g. 's---ng')"
                 " and optional string of floating characters." << endl;
         return 1;
     }
-    const std::set<std::string>& dict = readDictWords("dict-eng.txt");    
+    const std::set<std::string>& dict = readDictWords("dict-eng.txt");
     string in(argv[1]);
     string floatingChars;
     if(argc > 2){

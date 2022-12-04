@@ -6,10 +6,10 @@
 
 /**
  * @brief Returns the list of all legal words in the provided dictionary
- *        that meet the criteria provided in the `in` and `floating`
+ *        that meet the criteria provided in the in and floating
  *        inputs.
  * 
- * @param [in] in - string of fixed, correct characters and `-`s to indicate
+ * @param [in] in - string of fixed, correct characters and -s to indicate
  *                  the length of string and locations that must be filled in
  * @param [in] floating  - Characters that must be used somewhere in the word
  * @param [in] dict - Dictionary of strings of legal words
